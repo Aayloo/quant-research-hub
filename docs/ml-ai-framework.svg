@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360">
+<rect width="1000" height="360" fill="#ffffff"/>
+<text x="500" y="48" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#172033">ML / AI Knowledge Base</text>
+<text x="500" y="78" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#667085">Knowledge framework</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#667085"/></marker></defs>
+<rect x="350" y="105" width="300" height="64" rx="12" fill="#fff4e5" stroke="#f59e0b" stroke-width="2"/>
+<text x="500" y="145" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#9a5500">Knowledge Base</text>
+<line x1="500" y1="169" x2="500" y2="205" stroke="#667085" stroke-width="2"/>
+<line x1="130" y1="205" x2="870" y2="205" stroke="#667085" stroke-width="2"/>
+<line x1="130" y1="205" x2="130" y2="245" stroke="#667085" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="377" y1="205" x2="377" y2="245" stroke="#667085" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="623" y1="205" x2="623" y2="245" stroke="#667085" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="870" y1="205" x2="870" y2="245" stroke="#667085" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="40" y="245" width="180" height="64" rx="12" fill="#f5f7fa" stroke="#98a2b3" stroke-width="2"/>
+<rect x="287" y="245" width="180" height="64" rx="12" fill="#f5f7fa" stroke="#98a2b3" stroke-width="2"/>
+<rect x="533" y="245" width="180" height="64" rx="12" fill="#f5f7fa" stroke="#98a2b3" stroke-width="2"/>
+<rect x="780" y="245" width="180" height="64" rx="12" fill="#f5f7fa" stroke="#98a2b3" stroke-width="2"/>
+<text x="130" y="284" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#344054">ML</text>
+<text x="377" y="284" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#344054">DL</text>
+<text x="623" y="284" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#344054">Time Series</text>
+<text x="870" y="284" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#344054">AI / LLM</text>
+</svg>
