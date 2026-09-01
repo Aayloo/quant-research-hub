@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360">
+<rect width="1000" height="360" fill="#ffffff"/>
+<text x="500" y="48" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#172033">QS Project Portfolio</text>
+<text x="500" y="78" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#667085">Two focused projects</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#667085"/></marker></defs>
+<rect x="350" y="105" width="300" height="64" rx="12" fill="#e8f1ff" stroke="#3b82f6" stroke-width="2"/>
+<text x="500" y="145" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#174ea6">QS Workflow</text>
+<line x1="500" y1="169" x2="500" y2="220" stroke="#667085" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="500" y1="220" x2="280" y2="220" stroke="#667085" stroke-width="2"/>
+<line x1="500" y1="220" x2="720" y2="220" stroke="#667085" stroke-width="2"/>
+<line x1="280" y1="220" x2="280" y2="245" stroke="#667085" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="720" y1="220" x2="720" y2="245" stroke="#667085" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="100" y="245" width="360" height="72" rx="12" fill="#eef6ff" stroke="#60a5fa" stroke-width="2"/>
+<rect x="540" y="245" width="360" height="72" rx="12" fill="#effaf2" stroke="#4ade80" stroke-width="2"/>
+<text x="280" y="288" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#174ea6">04 Alpha Signal</text>
+<text x="720" y="288" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="21" font-weight="700" fill="#18733a">05 Portfolio Risk</text>
+</svg>
