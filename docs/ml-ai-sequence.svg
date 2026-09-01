@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650">
+<rect width="1200" height="650" fill="#ffffff"/>
+<text x="600" y="42" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#172033">Knowledge Base Sequence</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker></defs>
+<g font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#172033" text-anchor="middle">
+<rect x="55" y="75" width="170" height="48" rx="8" fill="#fff4e5" stroke="#f59e0b"/><text x="140" y="106">Author</text>
+<rect x="285" y="75" width="170" height="48" rx="8" fill="#f5f7fa" stroke="#98a2b3"/><text x="370" y="106">Source</text>
+<rect x="515" y="75" width="170" height="48" rx="8" fill="#e8f1ff" stroke="#60a5fa"/><text x="600" y="106">Workbench</text>
+<rect x="745" y="75" width="170" height="48" rx="8" fill="#f5f7fa" stroke="#98a2b3"/><text x="830" y="106">Review</text>
+<rect x="975" y="75" width="170" height="48" rx="8" fill="#effaf2" stroke="#4ade80"/><text x="1060" y="106">Publish</text>
+</g>
+<g stroke="#98a2b3" stroke-width="2" stroke-dasharray="7 7">
+<line x1="140" y1="123" x2="140" y2="575"/><line x1="370" y1="123" x2="370" y2="575"/><line x1="600" y1="123" x2="600" y2="575"/><line x1="830" y1="123" x2="830" y2="575"/><line x1="1060" y1="123" x2="1060" y2="575"/>
+</g>
+<g font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#344054">
+<line x1="140" y1="180" x2="370" y2="180" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="255" y="165" text-anchor="middle">Select topic</text>
+<line x1="370" y1="240" x2="140" y2="240" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="255" y="225" text-anchor="middle">Outline and references</text>
+<line x1="140" y1="300" x2="600" y2="300" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="370" y="285" text-anchor="middle">Build framework and examples</text>
+<line x1="600" y1="360" x2="830" y2="360" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="715" y="345" text-anchor="middle">Run checks and review</text>
+<line x1="830" y1="420" x2="600" y2="420" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="715" y="405" text-anchor="middle">Return corrections</text>
+<line x1="600" y1="480" x2="1060" y2="480" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="830" y="465" text-anchor="middle">Prepare knowledge artifact</text>
+<line x1="1060" y1="540" x2="140" y2="540" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="600" y="525" text-anchor="middle">Feedback and iteration</text>
+</g>
+</svg>
