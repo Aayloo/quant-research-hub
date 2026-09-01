@@ -6,14 +6,7 @@
 
 ## 总体结构
 
-```mermaid
-flowchart LR
-  ROOT["统一研究工作流"]
-  PROJECTS["QS 项目集"]
-  KNOWLEDGE["ML AI 知识库集"]
-  ROOT --> PROJECTS
-  ROOT --> KNOWLEDGE
-```
+![统一研究工作流](./docs/qs-project-framework.svg)
 
 ## 1. QS Project Portfolio
 
@@ -24,36 +17,11 @@ flowchart LR
 
 ### 项目框架图
 
-```mermaid
-flowchart TB
-  QS["QS Project Portfolio"]
-  ALPHA["04 Alpha Signal"]
-  RISK["05 Portfolio Risk"]
-  QS --> ALPHA
-  QS --> RISK
-```
+![QS 项目框架图](./docs/qs-project-framework.svg)
 
 ### QS 工作流时序图
 
-```mermaid
-sequenceDiagram
-  autonumber
-  participant PM
-  participant QS
-  participant DATA
-  participant RISK
-  PM->>QS: Define question and mandate
-  QS->>DATA: Request audited data
-  DATA-->>QS: Return data and quality checks
-  Note over QS: 04 Alpha Signal
-  QS->>QS: Build and test alpha signal
-  QS-->>PM: Deliver alpha research memo
-  Note over QS: 05 Portfolio Risk
-  QS->>RISK: Construct portfolio and assess risk
-  RISK-->>QS: Return risk and cost results
-  QS-->>PM: Deliver portfolio risk brief
-  PM-->>QS: Review and approve next experiment
-```
+![QS 工作流时序图](./docs/qs-workflow-sequence.svg)
 
 [查看 QS 项目框架与时序图](./QS_QA_%E5%B7%A5%E4%BD%9C%E6%B5%81%E6%97%B6%E5%BA%8F%E5%9B%BE_%E5%BA%94%E6%9C%89%E9%A1%B9%E7%9B%AE%E6%B8%85%E5%8D%95.md)
 
@@ -63,37 +31,11 @@ sequenceDiagram
 
 ### 知识库框架图
 
-```mermaid
-flowchart TB
-  KB["ML AI Knowledge Base"]
-  ML["ML"]
-  DL["DL"]
-  TS["Time Series"]
-  AI["AI LLM"]
-  KB --> ML
-  KB --> DL
-  KB --> TS
-  KB --> AI
-```
+![ML AI 知识库框架图](./docs/ml-ai-framework.svg)
 
 ### 知识库产出时序图
 
-```mermaid
-sequenceDiagram
-  autonumber
-  participant AUTHOR
-  participant SOURCE
-  participant WORKBENCH
-  participant REVIEW
-  participant PUBLISH
-  AUTHOR->>SOURCE: Select topic and learning goal
-  SOURCE-->>AUTHOR: Provide outline and references
-  AUTHOR->>WORKBENCH: Build framework and examples
-  WORKBENCH->>REVIEW: Run checks and review
-  REVIEW-->>WORKBENCH: Return corrections
-  WORKBENCH->>PUBLISH: Prepare public knowledge artifact
-  PUBLISH-->>AUTHOR: Return feedback for iteration
-```
+![ML AI 知识库产出时序图](./docs/ml-ai-sequence.svg)
 
 ML / AI 框架与时序图已整合在本项目首页。
 
