@@ -1,25 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
-<rect width="1200" height="720" fill="#ffffff"/>
-<text x="600" y="42" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#172033">QS Workflow Sequence</text>
-<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker></defs>
-<g font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" fill="#172033" text-anchor="middle">
-<rect x="85" y="75" width="150" height="48" rx="8" fill="#eef2ff" stroke="#818cf8"/><text x="160" y="106">PM</text>
-<rect x="330" y="75" width="150" height="48" rx="8" fill="#e8f1ff" stroke="#60a5fa"/><text x="405" y="106">QS</text>
-<rect x="575" y="75" width="150" height="48" rx="8" fill="#f5f7fa" stroke="#98a2b3"/><text x="650" y="106">Data</text>
-<rect x="820" y="75" width="150" height="48" rx="8" fill="#effaf2" stroke="#4ade80"/><text x="895" y="106">Risk</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1040">
+<rect width="1400" height="1040" fill="#ffffff"/>
+<text x="700" y="44" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="700" fill="#172033">QS Work Sequence</text>
+<text x="700" y="76" text-anchor="middle" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#667085">Portfolio Manager · Quantitative Strategist · Data and Research Stack · Portfolio and Risk Stack</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker><marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563eb"/></marker><marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#15803d"/></marker></defs>
+<g font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#172033" text-anchor="middle">
+<rect x="70" y="105" width="230" height="54" rx="9" fill="#eef2ff" stroke="#818cf8" stroke-width="2"/><text x="185" y="139">Portfolio Manager</text>
+<rect x="410" y="105" width="230" height="54" rx="9" fill="#e8f1ff" stroke="#60a5fa" stroke-width="2"/><text x="525" y="139">Quantitative Strategist</text>
+<rect x="750" y="105" width="230" height="54" rx="9" fill="#f5f7fa" stroke="#98a2b3" stroke-width="2"/><text x="865" y="139">Data and Research Stack</text>
+<rect x="1090" y="105" width="230" height="54" rx="9" fill="#effaf2" stroke="#4ade80" stroke-width="2"/><text x="1205" y="139">Portfolio and Risk Stack</text>
 </g>
-<g stroke="#98a2b3" stroke-width="2" stroke-dasharray="7 7">
-<line x1="160" y1="123" x2="160" y2="650"/><line x1="405" y1="123" x2="405" y2="650"/><line x1="650" y1="123" x2="650" y2="650"/><line x1="895" y1="123" x2="895" y2="650"/>
+<g stroke="#98a2b3" stroke-width="2" stroke-dasharray="7 7"><line x1="185" y1="159" x2="185" y2="970"/><line x1="525" y1="159" x2="525" y2="970"/><line x1="865" y1="159" x2="865" y2="970"/><line x1="1205" y1="159" x2="1205" y2="970"/></g>
+<g font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#344054">
+<line x1="185" y1="205" x2="525" y2="205" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="355" y="188" text-anchor="middle">Define investment question, mandate,</text><text x="355" y="207" text-anchor="middle">horizon and constraints</text>
+<line x1="525" y1="265" x2="865" y2="265" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="695" y="248" text-anchor="middle">Specify point-in-time data</text><text x="695" y="267" text-anchor="middle">and universe</text>
+<line x1="865" y1="325" x2="525" y2="325" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="695" y="308" text-anchor="middle">Return audited data and</text><text x="695" y="327" text-anchor="middle">data-quality report</text>
+<rect x="315" y="365" width="420" height="54" rx="9" fill="#e8f1ff" stroke="#60a5fa" stroke-width="2"/><text x="525" y="399" text-anchor="middle" font-size="20" font-weight="700" fill="#174ea6">Project 04 — Alpha Signal Research</text>
+<line x1="525" y1="455" x2="525" y2="500" stroke="#2563eb" stroke-width="2" marker-end="url(#arrowBlue)"/><text x="550" y="483">Form economic hypothesis and factor/model specification</text>
+<line x1="525" y1="545" x2="865" y2="545" stroke="#2563eb" stroke-width="2" marker-end="url(#arrowBlue)"/><text x="695" y="528" text-anchor="middle">Build features, labels and</text><text x="695" y="547" text-anchor="middle">time-ordered datasets</text>
+<line x1="865" y1="605" x2="525" y2="605" stroke="#2563eb" stroke-width="2" marker-end="url(#arrowBlue)"/><text x="695" y="588" text-anchor="middle">Train baseline and</text><text x="695" y="607" text-anchor="middle">candidate models</text>
+<line x1="525" y1="665" x2="525" y2="710" stroke="#2563eb" stroke-width="2" marker-end="url(#arrowBlue)"/><text x="550" y="693">Generate out-of-sample forecasts and alpha signals</text>
+<line x1="525" y1="755" x2="185" y2="755" stroke="#2563eb" stroke-width="2" marker-end="url(#arrowBlue)"/><text x="355" y="738" text-anchor="middle">Deliver alpha evidence and</text><text x="355" y="757" text-anchor="middle">signal research memo</text>
+<rect x="315" y="795" width="420" height="54" rx="9" fill="#effaf2" stroke="#4ade80" stroke-width="2"/><text x="525" y="829" text-anchor="middle" font-size="20" font-weight="700" fill="#18733a">Project 05 — Portfolio Construction &amp; Risk</text>
+<line x1="525" y1="885" x2="1205" y2="885" stroke="#15803d" stroke-width="2" marker-end="url(#arrowGreen)"/><text x="865" y="868" text-anchor="middle">Analyze holdings or optionally convert alpha views</text><text x="865" y="887" text-anchor="middle">into target portfolio</text>
+<line x1="1205" y1="935" x2="525" y2="935" stroke="#15803d" stroke-width="2" marker-end="url(#arrowGreen)"/><text x="865" y="918" text-anchor="middle">Return weights, turnover, exposures, costs</text><text x="865" y="937" text-anchor="middle">and stress results</text>
 </g>
-<g font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" fill="#344054">
-<line x1="160" y1="175" x2="405" y2="175" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="282" y="160" text-anchor="middle">Define question and mandate</text>
-<line x1="405" y1="235" x2="650" y2="235" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="527" y="220" text-anchor="middle">Request audited data</text>
-<line x1="650" y1="295" x2="405" y2="295" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="527" y="280" text-anchor="middle">Return data and quality checks</text>
-<rect x="300" y="335" width="210" height="42" rx="8" fill="#e8f1ff" stroke="#60a5fa"/><text x="405" y="362" text-anchor="middle" font-weight="700">04 Alpha Signal</text>
-<line x1="405" y1="420" x2="405" y2="465" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="425" y="450">Build and test signal</text>
-<line x1="405" y1="510" x2="160" y2="510" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="282" y="495" text-anchor="middle">Deliver alpha memo</text>
-<rect x="790" y="335" width="210" height="42" rx="8" fill="#effaf2" stroke="#4ade80"/><text x="895" y="362" text-anchor="middle" font-weight="700">05 Portfolio Risk</text>
-<line x1="405" y1="575" x2="895" y2="575" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="650" y="560" text-anchor="middle">Construct portfolio and assess risk</text>
-<line x1="895" y1="635" x2="405" y2="635" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="650" y="620" text-anchor="middle">Return risk and cost results</text>
+<g font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" fill="#344054">
+<rect x="980" y="455" width="330" height="92" rx="9" fill="#fffaf0" stroke="#f59e0b" stroke-width="1.5"/><text x="1145" y="482" text-anchor="middle" font-weight="700">After portfolio analysis</text><text x="1145" y="505" text-anchor="middle">Backtest, attribute performance</text><text x="1145" y="526" text-anchor="middle">and test robustness</text>
+<rect x="980" y="575" width="330" height="92" rx="9" fill="#fffaf0" stroke="#f59e0b" stroke-width="1.5"/><text x="1145" y="602" text-anchor="middle" font-weight="700">Final PM deliverable</text><text x="1145" y="625" text-anchor="middle">Portfolio recommendation</text><text x="1145" y="646" text-anchor="middle">and risk brief</text>
+<line x1="1205" y1="547" x2="1205" y2="575" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="1205" y1="667" x2="525" y2="667" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="865" y="650" text-anchor="middle">Challenge assumptions or approve the next experiment</text>
+<line x1="525" y1="985" x2="525" y2="1005" stroke="#344054" stroke-width="2" marker-end="url(#arrow)"/><text x="550" y="1001">Monitor drift and iterate the research loop</text>
 </g>
 </svg>
