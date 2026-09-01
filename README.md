@@ -95,7 +95,7 @@ sequenceDiagram
   PUBLISH-->>AUTHOR: Return feedback for iteration
 ```
 
-[查看原 ML / AI workflow](https://github.com/Aayloo/ml-ai-learning-workflow)
+ML / AI 框架与时序图已整合在本项目首页。
 
 ---
 
